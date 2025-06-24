@@ -1,3 +1,4 @@
+# CPU-only PyTorch (Streamlit-compatible)
 torch==2.1.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 sentence-transformers
