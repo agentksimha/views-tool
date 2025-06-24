@@ -8,7 +8,7 @@ import re
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
-
+torch.classes.__path__ = []
 # Download stopwords and lemmatizer
 nltk.download('stopwords')
 nltk.download('wordnet')
